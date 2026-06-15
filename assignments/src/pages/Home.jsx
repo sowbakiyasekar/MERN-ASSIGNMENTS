@@ -16,6 +16,8 @@ const Home = () => {
                         <li><Link to= {"/fullpage"}>assignment-6,7,8</Link></li>
 
                     </ul>
+                <li><Link to= {"/day3"}>DAY-3</Link></li>
+                
             </ul>
         </div>
         </>

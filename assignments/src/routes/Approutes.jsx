@@ -6,6 +6,7 @@ import ProductCard from "../pages/ProductCard"
 import MovieDetails from "../pages/MovieDetails"
 import CompanyInfo from "../pages/CompanyInfo"
 import FullPage from "../pages/FullPage"
+import DayThree from "../pages/DayThree"
 
 const Approutes = ()=> {
 
@@ -19,6 +20,7 @@ const Approutes = ()=> {
         <Route path="/movie" element={<MovieDetails/>}/>
         <Route path="/company" element={<CompanyInfo/>}/>
         <Route path="/fullpage" element={<FullPage/>}/>
+        <Route path="/day3" element={<DayThree/>}/>
 
 
       </Routes>
