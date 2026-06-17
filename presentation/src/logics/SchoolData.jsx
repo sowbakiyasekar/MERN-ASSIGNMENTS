@@ -1,5 +1,6 @@
 import { useNavigate } from "react-router-dom"
 import SchoolList from "../pages/SchoolList"
+import Home from "../pages/Home"
 
 const SchoolData = () => {
     const navigate = useNavigate()
@@ -41,9 +42,15 @@ const SchoolData = () => {
 
   },
 ]
+
+const totalStudents = schools.reduce((acc,school)=>acc+school.students,0)
+const totalTeachers = schools.reduce((acc,school)=>acc+school.teachers,0)
+// console.log(schools.length)
+
   return (
     <>
-    <SchoolList presentation = {schools} handleDetails={handleDetails}/>
+    <Home schools={schools} students= {totalStudents} teachers = {totalTeachers}/>
+    <SchoolList schools = {schools} handleDetails={handleDetails}/>
     </>
   )
 }

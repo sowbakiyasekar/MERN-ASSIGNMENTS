@@ -4,7 +4,7 @@ import AppRoute from "./routes/AppRoute"
 const App = () => {
   return (
     <>
-    <NavBar/>
+    {/* <NavBar/> */}
     <AppRoute/>
     </>
   )
