@@ -17,6 +17,8 @@ const Home = () => {
 
                     </ul>
                 <li><Link to= {"/day3"}>DAY-3</Link></li>
+                <li><Link to= {"/day8"}>DAY-8</Link></li>
+
                 
             </ul>
         </div>

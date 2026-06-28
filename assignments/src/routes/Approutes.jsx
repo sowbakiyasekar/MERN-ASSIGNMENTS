@@ -8,6 +8,7 @@ import CompanyInfo from "../pages/CompanyInfo"
 import FullPage from "../pages/FullPage"
 import DayThree from "../pages/DayThree"
 import LoginPage from "../components/LoginPage"
+import DayEight from "../pages/DayEight"
 
 const Approutes = ()=> {
 
@@ -23,6 +24,8 @@ const Approutes = ()=> {
         <Route path="/fullpage" element={<FullPage/>}/>
         <Route path="/day3" element={<DayThree/>}/>
         <Route path="/login" element={<LoginPage/>}/>
+        <Route path="/day8" element={<DayEight/>}/>
+
 
 
       </Routes>
