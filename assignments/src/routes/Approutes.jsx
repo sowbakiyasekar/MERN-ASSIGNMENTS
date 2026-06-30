@@ -10,6 +10,11 @@ import DayThree from "../pages/DayThree"
 import LoginPage from "../components/LoginPage"
 import DayEight from "../pages/DayEight"
 import DayEleven from "../pages/DayEleven"
+import DayTwelve from "../pages/DayTwelve"
+import Day12One from "../components/Day12One"
+import Day12Two from "../components/Day12Two"
+import Day12Three from "../components/Day12Three"
+import Day12Four from "../components/Day12Four"
 
 const Approutes = ()=> {
 
@@ -27,6 +32,12 @@ const Approutes = ()=> {
         <Route path="/login" element={<LoginPage/>}/>
         <Route path="/day8" element={<DayEight/>}/>
         <Route path="/day11" element={<DayEleven/>}/>
+        <Route path="/day12" element={<DayTwelve/>}/>
+        <Route path="/day12One" element={<Day12One/>}/>
+        <Route path="/day12Two" element={<Day12Two/>}/>
+        <Route path="/day12Three" element={<Day12Three/>}/>
+        <Route path="/day12Four" element={<Day12Four/>}/>
+
 
 
       </Routes>
